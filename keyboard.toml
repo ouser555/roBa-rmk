@@ -4,7 +4,8 @@ product_name = "roBa-rmk"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "RMK"
-board = "XIAO BLE"
+# board = "XIAO BLE"
+board = "nice!nano_v2"
 
 [rmk]
 ble_profiles_num = 5
