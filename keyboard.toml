@@ -167,6 +167,7 @@ A              B   C      D     E
 LT(1,Enter)    _   _      _     Escape
 """
 #encoders = [["PageDown", "PageUp"]]
+encoders = [["AudioVolUp", "AudioVolDown"], ["PageDown", "PageUp"]]
 
 [[keymap.layer]]
 name = "Layer 1"
