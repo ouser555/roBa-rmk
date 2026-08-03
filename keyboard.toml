@@ -179,6 +179,7 @@ _    _    _    _    _
 _    _    _    _    _
 """
 #encoders = [["_", "_"]]
+encoders = [["AudioVolUp", "AudioVolDown"], ["PageDown", "PageUp"]]
 
 [[keymap.layer]]
 name = "Layer 2"
@@ -190,6 +191,7 @@ _    _    _    _    _
 _    _    _    _    _
 """
 #encoders = [["_", "_"]]
+encoders = [["AudioVolUp", "AudioVolDown"], ["PageDown", "PageUp"]]
 
 [[keymap.layer]]
 name = "Layer 3"
@@ -201,6 +203,7 @@ _    _    _    _    _
 _    _    _    _    _
 """
 #encoders = [["_", "_"]]
+encoders = [["AudioVolUp", "AudioVolDown"], ["PageDown", "PageUp"]]
 
 [[keymap.layer]]
 name = "Layer 4"
@@ -212,6 +215,7 @@ _    _    _    _    _
 _    _    _    _    _
 """
 #encoders = [["_", "_"]]
+encoders = [["AudioVolUp", "AudioVolDown"], ["PageDown", "PageUp"]]
 
 [[keymap.layer]]
 name = "Layer 5"
@@ -223,6 +227,7 @@ _    _    _    _    _
 _    _    _    _    _
 """
 #encoders = [["_", "_"]]
+encoders = [["AudioVolUp", "AudioVolDown"], ["PageDown", "PageUp"]]
 
 [[keymap.layer]]
 name = "Layer 6"
@@ -234,6 +239,7 @@ _    _    _    _    _
 _    _    _    _    _
 """
 #encoders = [["_", "_"]]
+encoders = [["AudioVolUp", "AudioVolDown"], ["PageDown", "PageUp"]]
 
 [[keymap.layer]]
 name = "Layer 7 - Configuration"
@@ -246,3 +252,4 @@ _    _    _    _    _
 _    _    _    _    _
 """
 #encoders = [["_", "_"]]
+encoders = [["AudioVolUp", "AudioVolDown"], ["PageDown", "PageUp"]]
