@@ -56,8 +56,8 @@ use_2m_phy = true
 #rows = 4
 #cols = 5
 #matrix_type = "normal"
-row_pins = ["P0_03", "P0_28", "P0_29", "P1_11"]
-col_pins = ["P1_15", "P1_14", "P1_13", "P1_12", "P0_10"]
+row_pins = ["P0_24", "P1_00", "P0_11", "P1_04", "P1_06"]
+col_pins = ["P0_06", "P0_08", "P0_17", "P0_20", "P0_22"]
 
 # XIAO BLE nRF52840: Battery voltage is read from P0.31 (AIN7) with a voltage divider (1MΩ + 510kΩ), measuring across 510kΩ.
 # Note that P0.14 (VBAT_ENABLE) must be set LOW to enable battery voltage reading. This is done via [[split.central.output]] and [[split.peripheral.output]] configs.
@@ -70,11 +70,11 @@ col_pins = ["P1_15", "P1_14", "P1_13", "P1_12", "P0_10"]
 [[input_device.pmw3610]]
 name = "trackball0"
 spi.instance = "bitbang0"
-spi.sck = "P0_05"
-spi.mosi = "P0_04"
-spi.miso = "P0_04"
-spi.cs = "P0_09"
-motion = "P0_02"
+spi.sck = "P1_13"
+spi.mosi = "P1_11"
+spi.miso = "P1_11"
+spi.cs = "P0_10"
+motion = "P0_09"
 
 report_hz = 75
 
