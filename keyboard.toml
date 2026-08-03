@@ -104,6 +104,19 @@ phase = "default"
 resolution = 12
 reverse = false
 
+[display]
+driver = "ssd1306"
+size = "128x32"
+rotation = 0
+renderer = "OledRenderer"
+min_render_interval = 10
+
+[display.protocol.i2c]
+instance = "I2C1"
+scl = "P1_01"
+sda = "P1_02"
+
+
 [storage]
 # Uncomment to clear keymap data modified via Vial
 # clear_layout = true
