@@ -6,6 +6,7 @@ product_id = 0x4643
 manufacturer = "RMK"
 # board = "XIAO BLE"
 board = "nice!nano_v2"
+usb_enable = true
 
 [rmk]
 ble_profiles_num = 5
