@@ -53,9 +53,9 @@ use_2m_phy = true
 #low_active = true
 
 [matrix]
-rows = 4
-cols = 5
-matrix_type = "normal"
+#rows = 4
+#cols = 5
+#matrix_type = "normal"
 row_pins = ["P0_03", "P0_28", "P0_29", "P1_11"]
 col_pins = ["P1_15", "P1_14", "P1_13", "P1_12", "P0_10"]
 
