@@ -166,7 +166,7 @@ N              M   Comma  Dot   Slash
 A              B   C      D     E
 LT(1,Enter)    _   _      _     Escape
 """
-encoders = [["PageDown", "PageUp"]]
+#encoders = [["PageDown", "PageUp"]]
 
 [[keymap.layer]]
 name = "Layer 1"
@@ -177,7 +177,7 @@ _    _    _    _    _
 _    _    _    _    _
 _    _    _    _    _
 """
-encoders = [["_", "_"]]
+#encoders = [["_", "_"]]
 
 [[keymap.layer]]
 name = "Layer 2"
@@ -188,7 +188,7 @@ _    _    _    _    _
 _    _    _    _    _
 _    _    _    _    _
 """
-encoders = [["_", "_"]]
+#encoders = [["_", "_"]]
 
 [[keymap.layer]]
 name = "Layer 3"
@@ -199,7 +199,7 @@ _    _    _    _    _
 _    _    _    _    _
 _    _    _    _    _
 """
-encoders = [["_", "_"]]
+#encoders = [["_", "_"]]
 
 [[keymap.layer]]
 name = "Layer 4"
@@ -210,7 +210,7 @@ _    _    _    _    _
 _    _    _    _    _
 _    _    _    _    _
 """
-encoders = [["_", "_"]]
+#encoders = [["_", "_"]]
 
 [[keymap.layer]]
 name = "Layer 5"
@@ -221,7 +221,7 @@ _    _    _    _    _
 _    _    _    _    _
 _    _    _    _    _
 """
-encoders = [["_", "_"]]
+#encoders = [["_", "_"]]
 
 [[keymap.layer]]
 name = "Layer 6"
@@ -232,7 +232,7 @@ _    _    _    _    _
 _    _    _    _    _
 _    _    _    _    _
 """
-encoders = [["_", "_"]]
+#encoders = [["_", "_"]]
 
 [[keymap.layer]]
 name = "Layer 7 - Configuration"
@@ -244,4 +244,4 @@ _    _    _    _    _
 _    _    _    _    _
 _    _    _    _    _
 """
-encoders = [["_", "_"]]
+#encoders = [["_", "_"]]
