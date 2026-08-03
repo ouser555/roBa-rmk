@@ -9,13 +9,8 @@ command = "cargo"
 args = ["build", "--release", "--bin", "central"]
 dependencies = ["install-llvm-tools", "flip-link"]
 
-[tasks.build-peripheral]
-command = "cargo"
-args = ["build", "--release", "--bin", "peripheral"]
-dependencies = ["install-llvm-tools", "flip-link"]
-
 [tasks.build]
-dependencies = ["build-central", "build-peripheral"]
+dependencies = ["build-central"]
 
 [tasks.objcopy-central]
 install_crate = { crate_name = "cargo-binutils", binary = "cargo", test_arg = [
@@ -35,24 +30,6 @@ args = [
 ]
 dependencies = ["build-central"]
 
-[tasks.objcopy-peripheral]
-install_crate = { crate_name = "cargo-binutils", binary = "cargo", test_arg = [
-    "objcopy",
-    "--help",
-] }
-command = "cargo"
-args = [
-    "objcopy",
-    "--release",
-    "--bin",
-    "peripheral",
-    "--",
-    "-O",
-    "ihex",
-    "roBa-peripheral.hex",
-]
-dependencies = ["build-peripheral"]
-
 [tasks.uf2-central]
 install_crate = { crate_name = "cargo-hex-to-uf2", binary = "cargo", test_arg = [
     "hex-to-uf2",
@@ -70,25 +47,8 @@ args = [
 ]
 dependencies = ["objcopy-central"]
 
-[tasks.uf2-peripheral]
-install_crate = { crate_name = "cargo-hex-to-uf2", binary = "cargo", test_arg = [
-    "hex-to-uf2",
-    "--help",
-] }
-command = "cargo"
-args = [
-    "hex-to-uf2",
-    "--input-path",
-    "roBa-peripheral.hex",
-    "--output-path",
-    "roBa-peripheral.uf2",
-    "--family",
-    "nrf52840",
-]
-dependencies = ["objcopy-peripheral"]
-
 [tasks.uf2]
-dependencies = ["uf2-central", "uf2-peripheral"]
+dependencies = ["uf2-central"]
 
 [tasks.flash-uf2.linux]
 script_runner = "bash"
@@ -124,4 +84,4 @@ args = ["make", "flash-uf2", "roBa-peripheral.uf2"]
 dependencies = ["uf2-peripheral"]
 
 [tasks.flash]
-dependencies = ["flash-central", "flash-peripheral"]
+dependencies = ["flash-central"]
