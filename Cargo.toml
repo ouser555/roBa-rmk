@@ -16,7 +16,7 @@ rmk = { git = "https://github.com/HaoboGu/rmk", rev = "3fe4e41ab922bdfb0062a8fb2
     "nrf52840_ble",
     "async_matrix",
     "adafruit_bl",
-    ""display",
+    "display",
 ] }
 nrf-sdc = { git = "https://github.com/haobogu/nrf-sdc", rev = "abe49d22ebfc85fae134eb082fbfddf752016a55", features = [
     "defmt",
