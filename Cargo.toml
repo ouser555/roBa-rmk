@@ -14,7 +14,6 @@ license = "MIT OR Apache-2.0"
 rmk = { git = "https://github.com/HaoboGu/rmk", rev = "3fe4e41ab922bdfb0062a8fb2e175c0cb5e5eb32", features = [
 # rmk = { path = "../rmk/rmk", features = [
     "nrf52840_ble",
-    "split",
     "async_matrix",
     "adafruit_bl",
 ] }
