@@ -105,18 +105,18 @@ resolution = 12
 reverse = false
 
 
-#[display]
-#driver = "ssd1306"
-#size = "128x64"
-#rotation = 0
-#render_interval = 33
-#min_render_interval = 10
-#renderer = "my_crate::DongleRenderer"
+[display]
+driver = "ssd1306"
+size = "128x64"
+rotation = 0
+render_interval = 33
+min_render_interval = 10
+renderer = "my_crate::DongleRenderer"
 
-#[display.protocol.i2c]
-#instance = "TWISPI0"
-#scl = "P1_01"
-#sda = "P1_02"
+[display.protocol.i2c]
+instance = "TWISPI0"
+scl = "P1_01"
+sda = "P1_02"
 
 
 [storage]
