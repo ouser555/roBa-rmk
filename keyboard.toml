@@ -96,6 +96,14 @@ phase = "default"
 resolution = 12
 reverse = false
 
+[[input_device.encoder]]
+internal_pullup = true
+pin_a = "P0_02"
+pin_b = "P1_15"
+phase = "default"
+resolution = 12
+reverse = false
+
 [storage]
 # Uncomment to clear keymap data modified via Vial
 # clear_layout = true
