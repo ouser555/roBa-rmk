@@ -107,7 +107,7 @@ reverse = false
 
 [display]
 driver = "ssd1306"
-size = "128x64"
+size = "128x32"
 rotation = 0
 render_interval = 33
 min_render_interval = 10
