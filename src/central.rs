@@ -1,5 +1,7 @@
 #![no_main]
 #![no_std]
+extern crate self as my_crate;
+pub use custom_renderer::SimpleStatsRenderer as DongleRenderer;
 
 mod pointingproccontroller;
 
