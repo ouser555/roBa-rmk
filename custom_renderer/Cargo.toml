@@ -8,6 +8,6 @@ _ble = ["rmk/_ble"]
 split = ["rmk/split"]
 
 [dependencies]
-rmk = { path = "../rmk/rmk", features = ["display"], default-features = false }
+rmk = { path = "../rmk", features = ["display"], default-features = false }
 embedded-graphics = "0.8"
 heapless = "0.9"
