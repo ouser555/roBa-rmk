@@ -1,6 +1,5 @@
 #![no_main]
 #![no_std]
-extern crate self as my_crate;
 
 mod pointingproccontroller;
 
