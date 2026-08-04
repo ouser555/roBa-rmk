@@ -18,6 +18,7 @@ rmk = { git = "https://github.com/HaoboGu/rmk", rev = "3fe4e41ab922bdfb0062a8fb2
     "adafruit_bl",
     "ssd1306",
 ] }
+custom_renderer = { path = "custom_renderer" }
 nrf-sdc = { git = "https://github.com/haobogu/nrf-sdc", rev = "abe49d22ebfc85fae134eb082fbfddf752016a55", features = [
     "defmt",
     "peripheral",
