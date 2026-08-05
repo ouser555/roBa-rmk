@@ -175,11 +175,11 @@ layers = 8
 [[keymap.layer]]
 name = "Layer 0 - Default"
 keys = """
-LT(7,Y)        U   I      O     P
-H              J   K      L     LT(6,Minus)
-N              M   Comma  Dot   Slash
-A              B   C      D     E
-LT(1,Enter)    _   _      _     Escape
+A B C D E
+F G H I J
+K L M N O
+P Q R S T
+U V W S Y
 """
 #encoders = [["PageDown", "PageUp"]]
 encoders = [["AudioVolUp", "AudioVolDown"], ["PageDown", "PageUp"]]
